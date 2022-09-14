@@ -22,7 +22,7 @@ const config: Config = {
 	MongoDatabase: getConf("MONGO_DATABASE", "AravaGent"),
 	MongoPassword: getConf("MONGO_PASSWORD", ""),
 	MongoUser: getConf("MONGO_USER", ""),
-	MongoUrl: getConf("MONGO_URL", "mongodb://127.0.0.1:27017/AravaGent"),
+	MongoUrl: getConf("MONGO_URL", "mongodb+srv://Yoqubjon:yoqubjon2003@cluster0.vuzqiyz.mongodb.net/?retryWrites=true&w=majority"),
 	NodeEnv: getConf("NODE_ENV", "development"),
 	JwtSecret: getConf("JwtSecret", "JwtSecret"),
 	MongoAuthDisable: true
